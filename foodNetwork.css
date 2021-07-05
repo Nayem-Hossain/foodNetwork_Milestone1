@@ -1,0 +1,53 @@
+body{
+font-family: 'Montserrat', 'Poppins', sans-serif;
+margin: 0;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.text-color{
+    color: rgb(0, 115, 255);
+}
+#top-section{
+    display: flex;
+    
+}
+#home p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.half-view{
+    width: 40%;
+    margin: 30px;
+    padding: 30px;
+}
+#topView-img img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    padding: 15px 45px 15px 45px;
+    background-image:linear-gradient(rgb(158, 49, 241), rgb(47, 172, 250));
+    color: aliceblue;
+    font-weight: 900;
+    border-radius: 20px;
+}
+#aboutme-section{
+    display: flex;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+}
+#aboutme-section img{
+    width: 80%;   
+}
+#aboutme-text p{
+    margin-bottom: 100px;
+}
+#recipies-description{
+    width: 100%;
+    max-width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 450px;
+}
