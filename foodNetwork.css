@@ -14,8 +14,7 @@ h2{
     color: rgb(0, 115, 255);
 }
 #top-section{
-    display: flex;
-    
+    display: flex; 
 }
 #home p{
     text-align: justify;
@@ -41,7 +40,6 @@ h2{
     display: flex;
     background-image: url(images/shapes/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    
     background-size: cover;
     height: 480px;
 }
@@ -54,7 +52,7 @@ h2{
     margin-bottom: 100px;
 }
 #recipies{
-    margin: 5% 5% 10% 5%;
+    margin: 5% 5% 2% 5%;
 }
 .description-text {
     text-align: center;
@@ -69,7 +67,7 @@ h2{
     width: 25%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 10px auto 10px auto;
+    margin: 10px auto 0 auto;
     padding: 2%;
     
 }
@@ -80,6 +78,22 @@ h2{
     justify-content: center;
     object-fit: cover;
 }
+#menu-button{
+    background-color: rgb(255, 166, 0);
+    padding: 10px 20px 10px 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+.showlink{ 
+    text-align: center;
+}
+.showlink a{
+    text-decoration: none;
+    color: rgb(2, 1, 14);
+    font-weight: bolder;
+}
 #contact-info{
     background-color: rgb(230, 227, 227);
     padding: 10px;
@@ -88,8 +102,7 @@ h2{
 #contacts{
     display: flex;
     margin-left: 35%;
-    margin-right: 35%;
-    
+    margin-right: 35%;   
 }
 .contact-icon{
     margin-left: auto;
@@ -107,7 +120,7 @@ footer{
     padding-top: 10px;
 }
 footer p{
-    font-size: 20px;
-    padding-bottom: 7%;
+    font-size: 15px;
+    padding-bottom: 3%;
     color: aliceblue;
 }
